@@ -1,7 +1,7 @@
 import {useState} from "react";
 
 
-export default function Form(props){
+export default function AddTask(props){
     const [name, setName] = useState("");
     const handleSubmit = (e) => {
         e.preventDefault();

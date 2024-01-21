@@ -12,7 +12,7 @@ export default function ToDo(props)
                 {name}
             </p>
             <button type="button" className="btn btn-labeled deletebtn" onClick={() => deleteTask(id)}>
-            <RiDeleteBin6Line color="#B4161B" />
+            <RiDeleteBin6Line color="rgb(239 68 6)" />
             </button>
     </div>
     );

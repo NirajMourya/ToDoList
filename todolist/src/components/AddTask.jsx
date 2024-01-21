@@ -23,7 +23,7 @@ export default function AddTask(props){
           className = "newToDo"
           placeholder="Please add your tasks"
         />
-        <button type="submit" class="btn btn-primary addtodo">
+        <button type="submit" className="btn btn-primary addtodo">
           Add
         </button>
       </form>
